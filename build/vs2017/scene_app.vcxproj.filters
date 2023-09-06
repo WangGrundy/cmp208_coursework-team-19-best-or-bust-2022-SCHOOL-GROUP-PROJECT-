@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\General">
+      <UniqueIdentifier>{d754e7db-c5af-41f4-b45b-f4f68022012e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{dfb506d9-cb7a-4861-b230-2b6ac4f72629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\General\objects">
+      <UniqueIdentifier>{57e42da3-fc01-4186-a5fb-dd51adbf127b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{16a26b70-6a3c-4798-ac0b-cd7ea0d948ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\General\Base Object classes">
+      <UniqueIdentifier>{c0812efc-dcee-42e9-bd47-ccd0f5ae96ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene stuff">
+      <UniqueIdentifier>{bac1dcf6-b44c-462e-9b3d-4c2b0c1565bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene stuff\Levels">
+      <UniqueIdentifier>{441703c8-4bff-49a4-8686-a7aa0a942a61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\General\objects\Player">
+      <UniqueIdentifier>{c6d45159-1178-4288-84bd-e39700c55489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\General\MotionClipPlayer">
+      <UniqueIdentifier>{b501daa6-81fa-4e2b-8039-0dc901f37a42}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\main_d3d11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\main_vita.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\primitive_builder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>Source Files\General\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform.cpp">
+      <Filter>Source Files\General\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\scene_app.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject2D.cpp">
+      <Filter>Source Files\General\Base Object classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject3D.cpp">
+      <Filter>Source Files\General\Base Object classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\obj_mesh_loader.cpp">
+      <Filter>Source Files\General\Base Object classes</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseScene.cpp">
+      <Filter>Source Files\Scene stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Source Files\Scene stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Lava.cpp">
+      <Filter>Source Files\General\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_1.cpp">
+      <Filter>Source Files\Scene stuff\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_2.cpp">
+      <Filter>Source Files\Scene stuff\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\General\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScreen.cpp">
+      <Filter>Source Files\Scene stuff\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\General\objects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Goal.cpp">
+      <Filter>Source Files\General\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateTextureFunction.cpp">
+      <Filter>Source Files\General\Base Object classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>Source Files\General\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\motion_clip_player.cpp">
+      <Filter>Source Files\General\MotionClipPlayer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\primitive_builder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>Source Files\General\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>Source Files\General\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Source Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\scene_app.h">
+      <Filter>Source Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject2D.h">
+      <Filter>Source Files\General\Base Object classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject3D.h">
+      <Filter>Source Files\General\Base Object classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\obj_mesh_loader.h">
+      <Filter>Source Files\General\Base Object classes</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseScene.h">
+      <Filter>Source Files\Scene stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Source Files\Scene stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Lava.h">
+      <Filter>Source Files\General\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_1.h">
+      <Filter>Source Files\Scene stuff\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_2.h">
+      <Filter>Source Files\Scene stuff\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Source Files\General\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScreen.h">
+      <Filter>Source Files\Scene stuff\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source Files\General\objects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Goal.h">
+      <Filter>Source Files\General\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateTextureFunction.h">
+      <Filter>Source Files\General\Base Object classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>Source Files\General\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\motion_clip_player.h">
+      <Filter>Source Files\General\MotionClipPlayer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

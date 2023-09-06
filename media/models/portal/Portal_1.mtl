@@ -1,0 +1,53 @@
+# Blender 3.4.1 MTL File: 'Portal_1.blend'
+# www.blender.org
+
+newmtl Bone
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Skull_Color.jpg
+map_Ks C:/Skull_Roughness.png
+
+newmtl Crystal_Glass
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.498591 0.798159 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Grey_Stone
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.106535 0.106535 0.106535
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Portal_Emission
+Ns 428.429718
+Ka 1.000000 1.000000 1.000000
+Kd 0.327529 0.800000 0.317021
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ks -o 0.167648 0.167648 0 C:/Portal_Roughness.png
+map_Ke -o 0.167648 0.167648 0 C:/Portal_Color.png
+map_Bump -o 0.167648 0.167648 0 C:/Portal_Normal.png
+
+newmtl Yellow_Emission
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 15.000000 6.185305 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
